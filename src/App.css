@@ -129,3 +129,18 @@ button[type="submit"]:disabled {
     column-gap: 5rem;
   }
 }
+
+@media (max-width: 420px)
+{
+    .content-text {
+      display: none;
+    }
+    
+    .App {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      row-gap: 3rem;
+      padding: 4rem 0;
+    }
+}
