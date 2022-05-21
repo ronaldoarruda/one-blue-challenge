@@ -6,17 +6,17 @@ import SignUp from './pages/SignUp/index.jsx';
 
 
 const Router = () => {
-    return (
-      <BrowserRouter>
-          <Default>
-            <Routes>
-              <Route element={<Login/>} path="/login" exact/>
-              <Route element={<SignUp/>} path="/sign-up" exact/>
-              <Route path="*" element={<Navigate to="/login" />} />
-            </Routes>
-          </Default>
-      </BrowserRouter>
-    )
+  return (
+    <BrowserRouter>
+      <Default>
+        <Routes>
+          <Route element={<Login />} path="/login" exact />
+          <Route element={<SignUp />} path="/sign-up" exact />
+          <Route path="*" element={<Navigate to="/login" />} />
+        </Routes>
+      </Default>
+    </BrowserRouter>
+  )
 }
 
 export default Router;

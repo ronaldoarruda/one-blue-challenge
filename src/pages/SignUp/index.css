@@ -27,7 +27,9 @@
   row-gap: 1rem;
 }
 
-#input-name, #input-password, #input-new-password {
+#input-name,
+#input-password,
+#input-new-password {
   height: 3.5rem;
   border-radius: .25rem;
   border: 1px solid #4D4F5C;
@@ -40,12 +42,12 @@
 .action {
   display: flex;
   flex-direction: column;
-  row-gap:1rem;
+  row-gap: 1rem;
 }
 
 .action button {
-  color:white;
-  background-color:#262F3E;
+  color: white;
+  background-color: #262F3E;
   border-radius: 0.25rem;
   border: none;
   height: 3.5rem;
