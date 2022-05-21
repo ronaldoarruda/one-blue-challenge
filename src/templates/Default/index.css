@@ -1,0 +1,81 @@
+
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background: #FCFCFC;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10rem;
+}
+
+.sign-in {
+  padding: 2rem;
+  background-color: white;
+  width: 24.5rem;
+  border-radius: 1rem;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.12);
+}
+
+.background-page {
+  display: flex;
+  flex-direction: column;
+  row-gap:3rem;
+}
+
+#logo-one-blue {
+  width: 9rem;
+  height: auto;
+}
+
+.content-text {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  row-gap: 1rem;
+}
+
+.background-page h1 {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 3.5rem;
+  line-height: 48px;
+  color:#1B2330;
+}
+
+.background-page h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 1370px)
+{
+  .App {
+    column-gap: 5rem;
+  }
+}
+
+@media (max-width: 420px)
+{
+    .content-text {
+      display: none;
+    }
+    
+    .App {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      row-gap: 3rem;
+      padding: 4rem 0;
+    }
+}
