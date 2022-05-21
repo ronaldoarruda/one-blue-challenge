@@ -13,6 +13,7 @@
 .sign-in h1 {
   color: #4D4F5C;
   font-weight: 400;
+  text-align: start;
 }
 
 .input-login {
@@ -20,7 +21,6 @@
   flex-direction: column;
   row-gap: 1rem;
 }
-
 
 #input-name, #input-password {
   height: 3.5rem;
@@ -43,27 +43,28 @@
   row-gap:1rem;
 }
 
-.action button {
+.action a button {
   color:white;
   background-color:#262F3E;
   border-radius: 0.25rem;
   border: none;
   height: 3.5rem;
   font-size: 1rem;
+  width: 100%;
   cursor: pointer;
 }
 
-.action button:hover {
+.action button:hover{
   background-color: #2f3847;
 }
 
 
-.action button:nth-child(2) {
+.action a button {
   background-color:white;
   color:#262F3E;
   border: 1px solid #262F3E;
 }
-.action button:nth-child(2):hover {
+.action a button:hover {
   background-color: rgb(245, 245, 245);
 }
 

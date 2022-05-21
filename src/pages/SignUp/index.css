@@ -18,6 +18,7 @@
 .sign-up h1 {
   color: #4D4F5C;
   font-weight: 400;
+  text-align: start;
 }
 
 .input-sign-up {
