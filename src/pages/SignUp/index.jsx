@@ -3,7 +3,6 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup'
 import * as Yup from 'yup'
 import api from '../../services/api';
-import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { useNavigate } from "react-router-dom"
 
@@ -15,7 +14,7 @@ function SignUp() {
   const formSchema = Yup.object().shape({
     name: Yup.string()
       .required('Username is mendatory')
-      .min(6, 'Username must be at 4 char long'),
+      .min(6, 'Username must be at 6 char long'),
     password: Yup.string()
       .required('Password is mendatory')
       .min(4, 'Password must be at 4 char long'),

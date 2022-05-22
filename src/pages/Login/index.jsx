@@ -1,7 +1,6 @@
 import './index.css';
 import { useForm } from "react-hook-form";
 import api from "../../services/api";
-import { useState } from 'react';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from 'yup'
 import { Link } from "react-router-dom";
