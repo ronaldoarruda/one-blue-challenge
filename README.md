@@ -28,4 +28,4 @@ If you want to ask something, please contact me on my social media.
 * **Linkedin** -  [nronaldo7](https://www.linkedin.com/in/nronaldo7/)
 * **GitHub** - [ronaldoarruda](https://github.com/ronaldoarruda)
 
-Made with <3 by José Vinícius
+Made by Ronaldo Arruda
