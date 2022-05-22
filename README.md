@@ -7,8 +7,8 @@ A project that started with a challenge from the company One Blue was to create 
 </p>
 
 <div align="center">
- <img style="margin: 5px" src="github/images/log-in-image.png" alt="login page" height="425"/>
- <img style="margin: 5px" src="./github/images/sign-up-image.png" alt="sign page" height="425"/>
+ <img style="margin: 5px" src="github/images/log-in-image.png" alt="login page" height="210"/>
+ <img style="margin: 5px" src="./github/images/sign-up-image.png" alt="sign page" height="210"/>
 </div>
 
 
